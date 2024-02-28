@@ -28,6 +28,21 @@
             background-color: gray;
             color: white;
         }
+
+        /*dentro do nth-child(odd) -> impar
+        nth-child(even) -> par
+        */
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
+            font-weight: bold;
+
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        
         td.num{
             text-align: right;
         }
@@ -46,6 +61,7 @@
             TFOOT
                 TR, TD, TH          
     -->
+
     <table>
         <Caption>
             População das Unidades Federativas
